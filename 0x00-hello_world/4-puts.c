@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main function: - entry point
- * My hello, puts task
- * return: 0 after printing the function
- **/
+ * main - Entry point
+ * My hello, puts success
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
