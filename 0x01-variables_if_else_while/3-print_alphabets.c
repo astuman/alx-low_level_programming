@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main -Entry
- *
- *Return: Always 0 (Success or correct)
- */
+*main -Entry
+*
+*Return: Always 0 (Success or correct)
+*/
 int main(void)
 
 {
@@ -19,8 +19,6 @@ for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 {
 putchar(lower_case);
 }
-
-putchar("\n");
 
 return (0);
 }
