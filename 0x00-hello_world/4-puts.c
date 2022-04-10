@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- **main -Entry point
- **My hello, puts task
- **Return: return 0 after program execution
- **/
+ *main - Entry point
+ *My hello, puts task
+ *Return: return 0 after program execution
+ */
  *Main: - entry point
  *Return: 0 after printing the function
  */
