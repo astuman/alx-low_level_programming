@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
 int main(void)
@@ -12,4 +13,3 @@ printf("last digit of %d is %d %s\n", n, n % 10,
 		:(((n % 10) > 5) ? "and is greater than 5"
 		:"and is less than 6 and not 0"));
 return 0;
-		
