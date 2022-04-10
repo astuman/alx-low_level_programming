@@ -12,7 +12,7 @@
  **/
 int main(void)
 {
-	int n;
+int n;
 
 if (n % 10 > 5)
 {
