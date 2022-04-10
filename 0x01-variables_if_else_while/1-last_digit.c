@@ -20,3 +20,4 @@ int main(void)
 		: (((n % 10) > 5) ? "and is greater than 5" 
 		: "and is less than 6 and not 0"));
 return 0;
+}
