@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*here is the main entry
+/*
+* here is the main entry
 *returns after printing the function
 */
 int main(void)
