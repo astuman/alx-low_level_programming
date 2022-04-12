@@ -4,7 +4,7 @@
  * Description: print putchar in new line
  * Return: the program returns 0
  */
-inta main(void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
