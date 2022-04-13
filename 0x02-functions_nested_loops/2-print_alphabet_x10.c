@@ -11,9 +11,9 @@ char alphabet;
 int i;
 for (i = 0; i <= 10; i++){
 
-for (alphabetic = 'a'; alphabteci <= 'z'; alphabtic++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(alphabtic);
+_putchar(alphabet);
 }}
 
 }
