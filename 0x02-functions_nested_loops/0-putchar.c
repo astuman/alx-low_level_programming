@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main-main block
  * Description: print putchar in new line
@@ -13,5 +14,6 @@ for (c = 0; c < 8; c++)
 _putchar(ermias[c]);
 }
 putchar('\n');
+
 return (0);
 }
