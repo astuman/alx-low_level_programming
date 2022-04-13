@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+#include "main.h"
+
 /**
  * print_alphabet_x10 - print alphabet
  *
@@ -9,6 +9,8 @@ void print_alphabet_x10(void)
 {
 int alphabet;
 int count;
+
+
 count = 0;
 while (count < 10)
 {
@@ -23,4 +25,3 @@ _putchar('\n');
 
 
 }
->>>>>>> 7b58b60f8091e001b22e58856a29433fd2b6c107
