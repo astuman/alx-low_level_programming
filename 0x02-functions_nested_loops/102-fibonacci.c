@@ -1,6 +1,6 @@
 #include "stdio.h"
-
 /**
+*fibonacci: fibonacci numbers 
 *main: all action is doing
 *
 *Return: always 0
