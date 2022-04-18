@@ -1,8 +1,7 @@
 #include "stdio.h"
 /**
-*fibonacci: fibonacci numbers 
 *main: all action is doing
-*
+*fibonacci - fibonacci numbers
 *Return: always 0
 */
 int main(void)
