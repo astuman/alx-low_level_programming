@@ -1,18 +1,47 @@
 #include "main.h"
-
 /**
- * main - check the code.
+ * times_table -prints tables
  *
  * Return: Always 0.
  */
-int main(void)
+void times_table(void)
 {
-    print_times_table(3);
-    _putchar('\n');
-    print_times_table(5);
-    _putchar('\n');
-    print_times_table(98);
-    _putchar('\n');
-    print_times_table(12);  
-    return (0);
+int a;
+int b;
+int c;
+for (a = 0; a <= 100; a++)
+{
+for (b = 0; b <= 100; b++)
+{
+c = a * b;
+if ((c / 100) == 0)
+{
+if (b == 0)
+{
+_putchar ('0');
+}
+if (b != 0)
+{
+_putchar (' ');
+_putchar ((c % 100) + '0');
+}
+if (b < 99)
+{
+_putchar(',');
+_putchar (' ');
+}
+}
+else
+{
+_putchar ((c / 100) + '0');
+_putchar ((c % 100) + '0');
+if (b < 99)
+{
+_putchar(',');
+_putchar (' ');
+}
+}
+}
+_putchar ('\n');
+}
 }
