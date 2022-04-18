@@ -1,4 +1,10 @@
 #include "stdio.h"
+
+/**
+*main: all action is doing
+*
+*Return: always 0
+*/
 int main(void)
 {
 unsigned long count, i, j, k;
