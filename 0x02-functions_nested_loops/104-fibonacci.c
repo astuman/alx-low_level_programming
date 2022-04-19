@@ -24,7 +24,7 @@ n = j % 1000;
 j = j / 1000;
 while (count <= 98)
 {
-caryy = (m + n) / 1000;
+carry = (m + n) / 1000;
 p = (m + n) - carry * 1000;
 k = (i + j) + carry;
 m = n;
