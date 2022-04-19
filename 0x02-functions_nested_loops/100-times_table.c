@@ -16,7 +16,7 @@ for(j = 0; j <= n; j++)
 res = (j * i);
 if(j != 0)
 {
-putchar(", ");
+putchar(', ');
 putchar(' ');
 }
 if(res < 10 && j != 0)
@@ -38,10 +38,10 @@ putchar((res % 10) + '0');
 }
 else
 {
-_putchar((res % 10) + '0');
+putchar((res % 10) + '0');
 }
 }
-_putchar('\n');
+putchar('\n');
 }
 }
 }
