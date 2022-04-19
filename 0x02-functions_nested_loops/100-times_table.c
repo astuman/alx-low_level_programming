@@ -19,6 +19,7 @@ if(j != 0)
 putchar(' ');
 }
 if(res < 10 && j != 0)
+{
 putchar(' ');
 putchar(' ');
 putchar(res % 10 + '0');
