@@ -16,7 +16,7 @@ for(j = 0; j <= n; j++)
 res = (j * i);
 if(j != 0)
 {
-putchar(', ');
+putchar(", ");
 putchar(' ');
 }
 if(res < 10 && j != 0)
