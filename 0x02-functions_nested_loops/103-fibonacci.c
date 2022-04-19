@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - sum even fibonacci
+*main - sum even fibonacci number under 4000000
 *return: nothing
 **/
 int main(void)
@@ -19,5 +19,5 @@ sums += k;
 }
 }
 printf("%lu\n", sums);
-return 0;
+return (0);
 }
