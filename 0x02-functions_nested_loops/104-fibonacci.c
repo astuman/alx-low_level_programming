@@ -7,7 +7,7 @@
 int main(void)
 {
 int count;
-unsigned long i, j, k, m, n, p, caryy;
+unsigned long i, j, k, m, n, p, carry;
 count = 0;
 i = 0;
 j = 1;
