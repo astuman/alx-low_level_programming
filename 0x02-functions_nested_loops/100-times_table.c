@@ -16,12 +16,12 @@ for(j = 0; j <= n; j++)
 res = (j * i);
 if(j != 0)
 {
-_putchar(", ");
-_putchar(" ");
+putchar(", ");
+putchar(' ');
 }
 if(res < 10 && j != 0)
-putchar(" ");
-putchar(" ");
+putchar(' ');
+putchar(' ');
 putchar(res % 10 + '0');
 }
 else if(res > 10 && res < 100)
