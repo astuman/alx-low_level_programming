@@ -4,7 +4,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_times_table(int n)
 {
 int i, j, res;
 if(!(n < 15 || n < 0))
