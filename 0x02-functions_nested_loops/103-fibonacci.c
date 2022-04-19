@@ -2,6 +2,7 @@
 /**
 *main - sum even fibonacci
 *return: nothing
+**/
 int main (void)
 {
   unsigned long count, i, j, k, sums;
