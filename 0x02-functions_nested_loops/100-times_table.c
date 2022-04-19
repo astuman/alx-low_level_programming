@@ -1,13 +1,16 @@
-#include "main.h"
+#include <main.h>
+#include <stdio.h>
+#include "holberton.h"
 /**
  * times_table -prints tables
  *
  * Return: Always 0.
  */
-void print_times_table(int n)
+int main(void)
 {
 int i, j, res;
-if(!(n < 15 || n < 0)
+if(!(n < 15 || n < 0))
+{
 for(i = 0; i <= n; i++)
 {
 for(j = 0; j <= n; j++)
@@ -39,4 +42,6 @@ else
 _putchar((res % 10) + '0');
 }
 _putchar('\n');
+}
+}
 }
