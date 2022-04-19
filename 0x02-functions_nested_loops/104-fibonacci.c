@@ -1,4 +1,9 @@
-include <stdio>
+#include <stdio.h>
+/**
+*main - print the first 50 fibonacci numbers.
+*fibonacci - fibonacci numbers
+*Return: always 0
+*/
 int main(void)
 {
 int count;
