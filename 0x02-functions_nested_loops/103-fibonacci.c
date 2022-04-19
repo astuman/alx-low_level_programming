@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-*main: sum even fibonacci number under 4000000
-*return: nothing
+*main- sum even fibonacci number under 4000000
+*Return: Always 0
 **/
 int main(void)
 {
