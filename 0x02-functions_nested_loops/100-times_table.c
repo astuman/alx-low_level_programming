@@ -7,30 +7,30 @@
 void print_times_table(int n)
 {
 int i, j, res;
-if(!(n < 15 || n < 0))
+if (!(n < 15 || n < 0))
 {
-for(i = 0; i <= n; i++)
+for (i = 0; i <= n; i++)
 {
-for(j = 0; j <= n; j++)
+for (j = 0; j <= n; j++)
 {
 res = (j * i);
-if(j != 0)
+if (j != 0)
 {
 putchar(' ');
 }
-if(res < 10 && j != 0)
+if (res < 10 && j != 0)
 {
 putchar(' ');
 putchar(' ');
 putchar(res % 10 + '0');
 }
-else if(res > 10 && res < 100)
+else if (res > 10 && res < 100)
 {
 putchar(' ');
 putchar((res / 10) + '0');
 putchar((res % 10) + '0');
 }
-else if(res > 100 && j != 0)
+else if (res > 100 && j != 0)
 {
 putchar((res / 100) + '0');
 putchar((res / 10) % 10 + '0');
@@ -42,6 +42,5 @@ putchar((res % 10) + '0');
 }
 }
 putchar('\n');
-}
 }
 }
