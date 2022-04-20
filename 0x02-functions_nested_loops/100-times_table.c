@@ -1,47 +1,47 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * times_table -prints tables
- *
+ * print_times_table -prints tables
+ * @n - multiplication table 
  * Return: Always 0.
  */
 void print_times_table(int n)
 {
-int a;
-int b;
-int c;
-for (a = 0; a <= 100; a++)
+int i, j, res;
+if (!(n < 15 || n < 0))
 {
-for (b = 0; b <= 100; b++)
+for (i = 0; i <= n; i++)
 {
-c = a * b;
-if ((c / 100) == 0)
+for (j = 0; j <= n; j++)
 {
-if (b == 0)
+res = (j * i);
+if (j != 0)
 {
-_putchar ('0');
+putchar(' ');
 }
-if (b != 0)
+if (res < 10 && j != 0)
 {
-_putchar (' ');
-_putchar ((c % 100) + '0');
+putchar(' ');
+putchar(' ');
+putchar(res % 10 + '0');
 }
-if (b < 99)
+else if (res > 10 && res < 100)
 {
-_putchar(',');
-_putchar (' ');
+putchar(' ');
+putchar((res / 10) + '0');
+putchar((res % 10) + '0');
 }
+else if (res > 100 && j != 0)
+{
+putchar((res / 100) + '0');
+putchar((res / 10) % 10 + '0');
+putchar((res % 10) + '0');
 }
 else
 {
-_putchar ((c / 100) + '0');
-_putchar ((c % 100) + '0');
-if (b < 99)
-{
-_putchar(',');
-_putchar (' ');
+putchar((res % 10) + '0');
 }
 }
+putchar('\n');
 }
-_putchar ('\n');
 }
 }
