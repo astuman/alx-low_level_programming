@@ -9,4 +9,3 @@ char *rot13(char *);
 void print_number(int n);
 char *infinfite_add(char *n1, char *n2, char *r size_r);
 void print_buffer(char *b, int size);
-int _putchar(char c);
