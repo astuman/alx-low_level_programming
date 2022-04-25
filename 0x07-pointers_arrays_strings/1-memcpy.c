@@ -10,17 +10,13 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 
 {
-	unsigned int i;
-
-	i = 0;
-	while (i < n)  /*Delacring WHILE*/
-	{
-		*(dest + i) = *(src + i); /*add 1 position dest and src*/
-		i++;
-
-	} /*END WHILE*/
-
+	
+       const char src[50] = "http://www.tutorialspoint.com";
+   char dest[50];
+   strcpy(dest,"Heloooo!!");
+   printf("Before memcpy dest = %s\n", dest);
+   memcpy(dest, src, strlen(src)+1);
+   printf("After memcpy dest = %s\n", dest);
 
 	return (dest);
 }
-
