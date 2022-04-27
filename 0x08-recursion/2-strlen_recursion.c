@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strlen_recursion- prints string
- *@s-prints 
+ *@s-prints
  **/
 int _strlen_recursion(char *s)
 {
