@@ -26,12 +26,10 @@ count++;
 }
 return (1);
 }
-
 /**
  *main - Print the name of the program
  *@argc: Count arguments
  *@argv: Arguments
- *
  *return: Always 0 (Success)
  **/
 
