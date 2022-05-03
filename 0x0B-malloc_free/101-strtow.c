@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  *strtow - splits a string into words
  *@str: string of words to be split
  *Return: double pointer to strings
  **/
+
 char **strtow(char *str)
 {
 char **ptr;
@@ -83,13 +85,16 @@ int countWords(char *s)
 {
 int wordOn = 0;
 int words = 0;
+
 while (*s)
 {
 if (isSpace(*s) && wordOn)
 wordOn = 0;
+
 else if (!isSpace(*s) && !wordOn)
 {
 wordOn = 1;
+
 words++;
 }
 s++;
