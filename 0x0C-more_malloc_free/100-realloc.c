@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_realloc locates a memory block using malloc and free
+ *_realloc: locates a memory block using malloc and free
  *@ptr: pointer
  *@old_size: old size
  *@new_size: new size
@@ -28,6 +28,7 @@ free(ptr);
 return (0);
 }
 relloc = malloc(new_size);
+
 if (relloc == NULL)
 return (0);
 for (i = 0; i < (old_size || i < new_size); i++)
