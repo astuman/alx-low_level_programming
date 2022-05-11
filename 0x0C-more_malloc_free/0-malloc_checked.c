@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  *malloc_checked - array for prints a string
  *@b: number of memory
