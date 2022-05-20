@@ -12,9 +12,9 @@ while (h != NULL)
 {
 if (h->str == NULL)
 _putchar(0);
-_putchar("nil")
+_putchar("nil");
 else
-_putchar(h->len)
+_putchar(h->len);
 _putchar(h->str);
 h = h->next;
 as++;
