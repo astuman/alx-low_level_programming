@@ -6,16 +6,16 @@
  **/
 size_t print_list(const list_t *h)
 {
-size_t nelem;
-nelem = 0;
+size_t aa;
+aa = 0;
 while (h != NULL)
 {
 if (h->str == NULL)
-printf("[%d] %s\n", 0, "(nil)");
+_putchar("[0], (nill)")
 else
-printf("[%d] %s\n", h->len, h->str);
+_putchar(h->len, h->str);
 h = h->next;
-nelem++;
+aa++;
 }
-return (nelem);
+return (aa);
 }
