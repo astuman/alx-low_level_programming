@@ -11,7 +11,11 @@ as = 0;
 while (h != NULL)
 {
 if (h->str == NULL)
-_putchar(h->len, h->str);
+_putchar(0);
+_putchar("nil")
+else
+_putchar(h->len)
+_putchar(h->str);
 h = h->next;
 as++;
 }
