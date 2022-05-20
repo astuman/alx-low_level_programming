@@ -12,11 +12,9 @@ size_t size = 0;
 while(h) 
 {
 if(!h->str)
-_putchar("[0]");
-_putchar("(nill)");
+printf("[0], (nil)\n");
 else
-_putchar(h->len);
-_putchar(h->str);
+_putchar("[%u] %s\n", h->len, h->str);
 h = h->next;
 size++;
 }
