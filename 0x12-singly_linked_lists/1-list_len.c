@@ -1,13 +1,21 @@
 #include "lists.h"
+#include "stdio.h"
 /**
  * ToIntFunction: holds number of nodes
- * count: holds 0
+ * Return: the number of nodes printed
  **/
-ToIntFunction<LinearNode<T>> counter = (node) ->{
-int count = 0;
-while( node != null ) {
-count++;
-node = node.getNext();
+size_t list_len(const list_t *h);
+{
+size_t size = 0;
+while(h) 
+{
+if(!h->str)
+_putchar("[0], (nil)");
+else
+_putchar(h->len);
+_putchar(h->str);
+h = h->next;
+size++;
 }
-return( count );
+return(size);
 };
