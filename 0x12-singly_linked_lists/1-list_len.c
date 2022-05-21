@@ -1,7 +1,7 @@
-#include "lists.h"
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
+#include "lists.h"
 
 /**
  *list_len - prints all the elements in a linked list
@@ -16,6 +16,7 @@ while(h)
 {
 nnn++;
 h = h->next;
+
 }
 return (nnn);
 };
