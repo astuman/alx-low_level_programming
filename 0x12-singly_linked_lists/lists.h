@@ -1,7 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-typedef struct list_s{
+typedef struct list_s
+{
     char *str;
     unsigned int len;
     struct list_s *next;
