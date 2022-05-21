@@ -4,9 +4,9 @@
 #include <string.h>
 
 /**
- *list_len - prints all the elements
+ *list_len - prints all the elements in a linked list
  * @h: pointer to the list_t list to point
- * Return: the number of nodes printed
+ * Return:number of elements in h
  **/
 
 size_t list_len(const list_t *h);
