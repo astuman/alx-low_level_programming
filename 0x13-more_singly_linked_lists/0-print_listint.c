@@ -13,7 +13,7 @@
     unsigned int n;
     current = h;
     n = 0;
-    
+
     while (current != NULL)
     {
         printf("%i\n", current->n);
