@@ -30,8 +30,10 @@ slow = slow->next;
 fast = fast->next;
 
 }
+
 return (fast);
-														        }
 }
+}
+
 return (NULL);
 }
