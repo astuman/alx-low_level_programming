@@ -3,11 +3,11 @@
 /**
  *print_binary - printing a binary number
  *@n: hold unsigned int
- *Return: return a value
  **/
-void print_binary(unsigned long int n);
+
+void print_binary(unsigned long int n)
 {
-int i, cc = 0;
+int x, cc = 0;
 
 unsigned long int current;
 
@@ -23,7 +23,6 @@ cc++;
 }
 else if (cc)
 _putchar('0');
-
 }
 if (!cc)
 _putchar('0');
