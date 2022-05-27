@@ -8,27 +8,16 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int k = 2;
-
-unsigned int i;
-unsigned int c;
-unsigned int len;
+int i;
+unsigned int ou = 0;
 
 if (!b)
 return (0);
-len = strlen(b);
-
-for (c = len; c > 0; c--)
+for (i = 0; b[i]; i++)
 {
-if (b[c] != 48 || b[c] != 49)
+if (b[i] < '0' || b[i] > '1')
 return (0);
-if (b[c] == '1')
-{
-i += _atoi(b) * k;
-
+ou = 2 * ou + (b[i] - '0');
 }
-k *= 2;
-
-}
-return (i);
+return (ou);
 }
