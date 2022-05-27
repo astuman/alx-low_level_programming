@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_binary - printing a binary number
+ *print_binary - printing the binary equivalent of decimal number
  *@n: hold unsigned int
  **/
 
@@ -23,6 +23,7 @@ cc++;
 }
 else if (cc)
 _putchar('0');
+
 }
 if (!cc)
 _putchar('0');
