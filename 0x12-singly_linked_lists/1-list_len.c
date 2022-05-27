@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -10,10 +9,12 @@
 size_t list_len(const list_t *h)
 {
 size_t as = 0;
+
 while(h) 
 {
 as++;
 h = h->next;
+
 }
 return (as);
 }
