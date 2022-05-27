@@ -22,10 +22,11 @@ cc++;
 
 }
 else if (cc)
+
 _putchar('0');
 
 }
 if (!cc)
-_putchar('0');
 
+_putchar('0');
 }
