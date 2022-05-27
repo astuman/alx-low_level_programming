@@ -14,7 +14,7 @@ unsigned int i;
 unsigned int c;
 unsigned int len;
 
-if (b == NULL)
+if (!b)
 return (0);
 len = strlen(b);
 
@@ -24,7 +24,7 @@ if (b[c] != 48 || b[c] != 49)
 return (0);
 if (b[c] == '1')
 {
-i += atoi(b) * k;
+i += _atoi(b) * k;
 
 }
 k *= 2;
