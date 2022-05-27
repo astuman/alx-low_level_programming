@@ -18,6 +18,8 @@ for (i = 0; b[i]; i++)
 if (b[i] < '0' || b[i] > '1')
 return (0);
 ou = 2 * ou + (b[i] - '0');
+
 }
+
 return (ou);
 }
