@@ -5,16 +5,17 @@
  *@h: singly linked list.
  *Return: number of elements in the list.
  **/
+
 size_t list_len(const list_t *h)
 {
-size_t as = 0;
+size_t as;
+as = 0;
 
-while(h) 
+while(h != NULL) 
 {
-as++;
 h = h->next;
+as++;
 
 }
-
 return (as);
 }
