@@ -23,6 +23,8 @@ for (nchar = 0; str[nchar]; nchar++)
 new->len = nchar;
 new->next = *head;
 *head = new;
+
 }
 return (*head);
+
 }
