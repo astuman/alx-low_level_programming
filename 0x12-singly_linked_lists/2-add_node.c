@@ -2,9 +2,9 @@
 
 /**
  *add_node - adds a new node at the beginning of a list_t list.
- *@head: head of the linked list.
- *@str: string to store in the list.
- *Return: address of the head.
+ *@head: doubling pointer to the list_t list
+ *@str: new string to add in the node
+ *Return: address of the new element
  **/
 
 list_t *add_node(list_t **head, const char *str)
