@@ -26,5 +26,5 @@ if (fwrite == -1)
 }
 close(file);
 
-return (-1);
+return (1);
 }
