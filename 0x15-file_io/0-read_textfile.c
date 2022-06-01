@@ -28,5 +28,6 @@ if (fwrite == -1)
 	return (0);
 close(file);
 free(tsize);
-return(fwrite);
+
+return (fwrite);
 }
