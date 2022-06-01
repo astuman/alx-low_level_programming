@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *create_file - creates a file
@@ -24,6 +24,5 @@ if (fwrite == -1)
 return (-1);
 }
 close(file);
-
 return (1);
 }
