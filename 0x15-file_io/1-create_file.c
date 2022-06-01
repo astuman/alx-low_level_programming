@@ -6,6 +6,7 @@ include "main.h"
  *@text_content: a NULL terminated string to write to the file
  *Return: 1 on success, -1 on failure
  **/
+
 int create_file(const char *filename, char *text_content)
 {
 int file, fwrite, x;
@@ -18,7 +19,7 @@ if (file == -1)
 if (text_content != NULL)
 {
 for (x = 0; text_content[i]; x++)
-;
+
 fwrite = write(file, text_content, x);
 if (fwrite == -1)
 	return (-1);
