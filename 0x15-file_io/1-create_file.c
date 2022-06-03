@@ -9,7 +9,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-int file, fwrite, x;
+int file, fwrite, m;
 
 if (filename == NULL)
 return (-1);
@@ -18,8 +18,8 @@ if (file == -1)
 return (-1);
 if (text_content != NULL)
 {
-for (x = 0; text_content[x]; x++)
-fwrite = write(file, text_content, x);
+for (m = 0; text_content[m]; m++)
+fwrite = write(file, text_content, m);
 if (fwrite == -1)
 return (-1);
 }
