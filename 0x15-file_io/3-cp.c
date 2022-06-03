@@ -6,6 +6,7 @@
  *@argv: double pointer
  *Return: the actual number of letters it could read and print
  **/
+
 int main(int argc, char **argv)
 {
 int f1, f2, n;
@@ -45,5 +46,6 @@ if (close(f2) < 0)
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f2);
 exit(100);
 }
+
 return (0);
 }
