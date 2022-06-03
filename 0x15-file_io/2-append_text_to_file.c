@@ -19,7 +19,7 @@ return (-1);
 if (text_content != NULL)
 {
 for (x = 0; text_content[x]; x++)
-			;
+;
 fwrite = write(file, text_content, x);
 if (fwrite == -1)
 return (-1);
