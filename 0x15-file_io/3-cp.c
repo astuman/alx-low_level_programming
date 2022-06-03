@@ -2,8 +2,8 @@
 
 /**
  *main - copies the content of a file to another file
- *@argc: number of arguments passed
- *@argv: double pointer
+ *@argc: number of arguments passed to the program
+ *@argv: array of arguments
  *Return: the actual number of letters it could read and print
  **/
 
