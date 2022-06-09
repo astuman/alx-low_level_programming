@@ -10,8 +10,8 @@
 int main(int argc, char **argv)
 {
 int file1, file2, n;
-
 char buf[1024];
+
 if(argc != 3)
 {
 dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
