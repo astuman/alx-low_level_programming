@@ -1,4 +1,5 @@
-
+#include <stdio.h>
+#include <stdlib.h>
 #ifndef DOUBLE_LINKED
 #define DOUBLE_LINKED
 
