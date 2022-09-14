@@ -13,7 +13,7 @@ def island_perimeter(grid):
                 if row != len(grid) - 1:
                     if grid[row + 1][col] == 1:
                         borders += 1
-                        if col != len(grid[row]) - 1:
+                    if col != len(grid[row]) - 1:
                             if grid[row][col + 1] == 1:
                                 borders += 1
     perimeter = (patches * 4) - (borders * 2)
