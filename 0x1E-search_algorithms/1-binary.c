@@ -2,7 +2,7 @@
 
 /**
  * binary_search - performs binary search
- * @array: the integer array
+ * @array: the array
  * @size: its size
  * @value: value to search for
  *
